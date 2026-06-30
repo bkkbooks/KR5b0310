@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0310/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0310/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 四明洞天丹山圖詠集
+  date: '2015-08-29 00:16:09.297440'
+  source:
+    repository: kanripo
+    path: KR5b0310
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0310_000-ZTDZ.yaml, hash: 'sha256:44670dca0f0196c9c2295612dd0b8e0b8e5dbb4fbcd246a0432ff48f4210c902'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0310_000-ZTDZ.markers.yaml, hash: 'sha256:ab36f56c926819d987fa514145a09fcabfa0d26125bd577c76e0aa870ee907b2'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0310_SJB_000-110098c
+    span:
+    - body
+    - 0
+    - 10432
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:1bad8ef5119caed0e8bb46684a1d8e5857cf44e54d2f690c9dae087b9752734c
